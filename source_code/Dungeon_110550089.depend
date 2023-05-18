@@ -1,0 +1,177 @@
+# depslib dependency file v1.0
+1650606695 source:d:\hw1\dungeon_110550089\backpack.cpp
+	"Backpack.h"
+
+1650635328 d:\hw1\dungeon_110550089\backpack.h
+	<iostream>
+	<string>
+	<vector>
+	"Player.h"
+	"Equipment.h"
+	"Weapon.h"
+	"Armor.h"
+	"Helmet.h"
+
+1650611570 d:\hw1\dungeon_110550089\player.h
+	<iostream>
+	<string>
+	<vector>
+	"GameCharacter.h"
+	"Room.h"
+	"Backpack.h"
+	"Equipment.h"
+
+1650570758 d:\hw1\dungeon_110550089\gamecharacter.h
+	<iostream>
+	<string>
+	"Object.h"
+
+1650599891 d:\hw1\dungeon_110550089\object.h
+	<iostream>
+	<string>
+	<vector>
+
+1650600810 d:\hw1\dungeon_110550089\room.h
+	<iostream>
+	<string>
+	<vector>
+	<queue>
+	"Object.h"
+
+1650570497 d:\hw1\dungeon_110550089\equipment.h
+	<iostream>
+	<string>
+	"Object.h"
+
+1650570758 d:\hw1\dungeon_110550089\weapon.h
+	<iostream>
+	<string>
+	<vector>
+	"Equipment.h"
+
+1650571502 d:\hw1\dungeon_110550089\armor.h
+	<iostream>
+	<string>
+	<vector>
+	"Equipment.h"
+
+1650599891 d:\hw1\dungeon_110550089\helmet.h
+	<iostream>
+	<string>
+	<vector>
+	"Equipment.h"
+
+1650611857 source:d:\hw1\dungeon_110550089\boss.cpp
+	"Boss.h"
+
+1650570497 d:\hw1\dungeon_110550089\boss.h
+	<iostream>
+	<string>
+	<vector>
+	"GameCharacter.h"
+	"Player.h"
+
+1650638608 source:d:\hw1\dungeon_110550089\dungeon.cpp
+	"Dungeon.h"
+	<time.h>
+	<vector>
+	<fstream>
+
+1650570497 d:\hw1\dungeon_110550089\dungeon.h
+	<iostream>
+	<string>
+	<vector>
+	<exception>
+	"Player.h"
+	"Monster.h"
+	"NPC.h"
+	"Boss.h"
+	"Room.h"
+	"Weapon.h"
+	"armor.h"
+	"Helmet.h"
+	"Backpack.h"
+	"Lock.h"
+	"Treasure_Chest.h"
+	<fstream>
+
+1650570758 d:\hw1\dungeon_110550089\monster.h
+	<iostream>
+	<string>
+	<vector>
+	"GameCharacter.h"
+	"Player.h"
+
+1650570758 d:\hw1\dungeon_110550089\npc.h
+	<iostream>
+	<string>
+	<vector>
+	"GameCharacter.h"
+	"Player.h"
+	"Equipment.h"
+
+1650570758 d:\hw1\dungeon_110550089\lock.h
+	<iostream>
+	<string>
+	"Object.h"
+
+1650570758 d:\hw1\dungeon_110550089\treasure_chest.h
+	<iostream>
+	<string>
+	<vector>
+	"GameCharacter.h"
+	"Player.h"
+
+1650571269 source:d:\hw1\dungeon_110550089\equipment.cpp
+	"Equipment.h"
+
+1650571269 source:d:\hw1\dungeon_110550089\gamecharacter.cpp
+	"Object.h"
+	"GameCharacter.h"
+
+1650571269 source:d:\hw1\dungeon_110550089\helmet.cpp
+	"Helmet.h"
+	"Player.h"
+
+1650614481 source:d:\hw1\dungeon_110550089\lock.cpp
+	"Lock.h"
+	"Player.h"
+
+1650610524 source:d:\hw1\dungeon_110550089\main.cpp
+	<iostream>
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+	"Dungeon.h"
+	"Monster.h"
+	"NPC.h"
+	"Player.h"
+
+1650635328 source:d:\hw1\dungeon_110550089\monster.cpp
+	"Monster.h"
+
+1650571269 source:d:\hw1\dungeon_110550089\npc.cpp
+	"NPC.h"
+
+1650571269 source:d:\hw1\dungeon_110550089\object.cpp
+	"Object.h"
+
+1650611570 source:d:\hw1\dungeon_110550089\player.cpp
+	"Player.h"
+
+1650600810 source:d:\hw1\dungeon_110550089\room.cpp
+	"Room.h"
+	<queue>
+
+1650571269 source:d:\hw1\dungeon_110550089\treasure_chest.cpp
+	"Treasure_Chest.h"
+
+1650635328 source:d:\hw1\dungeon_110550089\weapon.cpp
+	"Weapon.h"
+	"Player.h"
+
+1650571130 source:d:\hw1\dungeon_110550089\armor.cpp
+	"Armor.h"
+	"Player.h"
+
